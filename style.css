@@ -1,0 +1,44 @@
+/*** 
+lOS ESTILOS EXTRAS IRÁN AQUÍ ABAJO
+**/
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+header {
+    width: 100%;
+    background-color: #fff4ec;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+picture img{
+    max-height: 430px;
+}
+.resaltado {
+    background-color: #ff67b3;
+    opacity: 0.7;
+}
+
+.logo {
+    max-height: 3.75rem;
+    max-width: 9rem !important
+}
+.card {
+    border: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
