@@ -25,8 +25,8 @@ picture img{
 }
 
 .logo {
-    max-height: 3.75rem;
-    max-width: 9rem !important
+    height: 3.75rem;
+    width: 9rem !important
 }
 .card {
     border: none !important;
