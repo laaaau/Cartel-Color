@@ -9,14 +9,18 @@ body {
     font-family: 'DM Sans',sans-serif;
 }
 
+main {
+    flex: 1;
+}
 header {
     width: 100%;
     background-color: #fff4ec;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-}
+footer { 
+    justify-content: center;
+    display: flex;
+
+} 
 
 picture img{
     max-height: 430px;
