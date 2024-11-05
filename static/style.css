@@ -19,6 +19,7 @@ header {
 footer { 
     justify-content: center;
     display: flex;
+    background-color: #fdf0f7;
 
 } 
 
