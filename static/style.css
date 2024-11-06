@@ -38,6 +38,11 @@ picture img{
 .card {
     border: none !important;
 }
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* width */
 ::-webkit-scrollbar {
