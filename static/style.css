@@ -1,13 +1,14 @@
 /*** 
 lOS ESTILOS EXTRAS IRÁN AQUÍ ABAJO
 **/
+:root {
+    --bs-body-font-family: "DM Sans", sans-serif !important;
+}
 html {
     min-height: 100%;
     position: relative;
 }
-body {
-    font-family: 'DM Sans',sans-serif;
-}
+
 
 main {
     flex: 1;
