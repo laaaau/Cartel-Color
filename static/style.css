@@ -46,7 +46,7 @@ picture img{
     justify-content: center;
 }
 .banner{
-    height: 400px;
+    height: 38vh;
     background-size: cover; /* Makes the image cover the entire container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -54,6 +54,7 @@ picture img{
 
 #banner-flores{
     background-image: url("images/Otras_imagenes/Banner-flores.png");
+    height: 48vh !important;
     
 }
 
@@ -62,7 +63,7 @@ picture img{
 }
 
 #banner-otros{
-    background-image: url("");
+    background-image: url("images/Otras_imagenes/banner-patron.PNG");
 }
 /* width */
 ::-webkit-scrollbar {
