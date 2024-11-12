@@ -50,6 +50,10 @@ picture img{
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
 }
+.texto-coloreado{
+    color: #f48fb1;
+
+}
 
 #banner-flores{
     background-image: url("images/Otras_imagenes/Banner-flores.png");
