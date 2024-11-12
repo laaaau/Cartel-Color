@@ -33,9 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const link = links[index];
         link.onclick = (event) => {
             debugger
+            event.preventDefault()
             if(link.textContent !== 'Inicio'){
-                event.preventDefault()
-                //event.stopPropagation()
                 console.log(link.href)
                 load_unique_html(link.href, main)
                 apply_unique_class('active', link)
