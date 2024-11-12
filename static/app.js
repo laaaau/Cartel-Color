@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let index = 0; index < links.length; index++) {
         const link = links[index];
         link.onclick = (event) => {
+            debugger
             if(link.textContent !== 'Inicio'){
                 event.preventDefault()
                 //event.stopPropagation()
