@@ -56,8 +56,26 @@ picture img{
 }
 
 .canva-video{
-    height: 35vw;
-    width: 35vw;
+  /* Establece altura y ancho específicos */
+  width: 18vw;
+  height: 32vw; /* Ajusta este valor según necesites */
+  
+  /* Esto es clave: oculta el contenido que se desborda */
+  overflow: hidden;
+  
+  /* Elimina bordes */
+  border: none;
+  
+  margin: 0 auto;
+
+}
+
+.canva-video-container{
+    width: 100%;
+    overflow: hidden; /* Importante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #banner-flores{
