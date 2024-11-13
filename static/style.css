@@ -76,23 +76,17 @@ picture img{
     100%{transform:scale(1)} }
 
 .canva-video{
-  /* Establece altura y ancho específicos */
   width: 18vw;
-  height: 32vw; /* Ajusta este valor según necesites */
-  
-  /* Esto es clave: oculta el contenido que se desborda */
+  height: 32vw;
   overflow: hidden;
-  
-  /* Elimina bordes */
   border: none;
-  
   margin: 0 auto;
 
 }
 
 .canva-video-container{
     width: 100%;
-    overflow: hidden; /* Importante */
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
