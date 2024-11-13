@@ -55,6 +55,11 @@ picture img{
 
 }
 
+.canva-video{
+    height: 35vw;
+    width: 35vw;
+}
+
 #banner-flores{
     background-image: url("images/Otras_imagenes/Banner-flores.png");
     height: 48vh !important;
