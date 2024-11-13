@@ -34,11 +34,24 @@ picture img{
 
 .logo {
     height: 3.75rem;
-    width: 9rem !important
+    width: 9rem !important;
+    animation: blur-in 0.8s linear both;
 }
 .card {
     border: none !important;
+    transition: all 0.3s ease;
 }
+
+
+@keyframes blur-in{
+    0%{filter:blur(12px);opacity:0}
+    100%{filter:blur(0);opacity:1}}
+
+/**Para los productos (efecto flotante al pasar el mouse):*/
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+  }
 .centrado{
     display: flex;
     align-items: center;
@@ -46,8 +59,8 @@ picture img{
 }
 .banner{
     height: 38vh;
-    background-size: cover; /* Makes the image cover the entire container */
-    background-position: center; /* Centers the image */
+    background-size: cover;
+    background-position: center; 
     background-repeat: no-repeat;
 }
 .texto-coloreado{
