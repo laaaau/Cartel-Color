@@ -37,7 +37,7 @@ picture img{
     width: 9rem !important;
     animation: blur-in 0.8s linear both;
 }
-.card {
+.card, .img-fluid {
     border: none !important;
     transition: all 0.3s ease;
 }
@@ -48,7 +48,7 @@ picture img{
     100%{filter:blur(0);opacity:1}}
 
 /**Para los productos (efecto flotante al pasar el mouse):*/
-.card:hover {
+.card:hover, .img-fluid:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 30px rgba(0,0,0,0.1);
   }
@@ -67,6 +67,13 @@ picture img{
     color: #f48fb1;
 
 }
+
+.aparecer-desde-centro{
+    animation:scale-up-center 0.4s; 
+} 
+@keyframes scale-up-center{ 
+    0%{transform:scale(.5)} 
+    100%{transform:scale(1)} }
 
 .canva-video{
   /* Establece altura y ancho específicos */
@@ -104,12 +111,11 @@ picture img{
 #banner-otros{
     background-image: url("images/Otras_imagenes/banner-patron.PNG");
 }
-/* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: gray;
   border-radius: 10px;
